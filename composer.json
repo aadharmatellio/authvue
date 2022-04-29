@@ -1,6 +1,6 @@
 {
     "name": "aadhar/authvue",
-    "description": "Simple Package for auth scaffolding vueJs for authentication in laravel.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+    "description": "Simple Package for auth scaffolding vueJs for authentication in laravel framework.",
     "license": "MIT",
     "autoload": {
         "psr-4": {
