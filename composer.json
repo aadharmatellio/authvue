@@ -1,0 +1,24 @@
+{
+    "name": "aadhar/authvue",
+    "description": "Simple Package for auth scaffolding vueJs for authentication in laravel.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aadhar\\Authvue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aadhar gaur",
+            "email": "adhar.gaur@matellio.com"
+        }
+    ],
+    "scripts": {
+        "post-create-project-cmd": [
+            "@php artisan ui vue --auth"
+        ]
+    },
+    "require": {
+        "laravel/ui": "^3.4"
+    }
+}
